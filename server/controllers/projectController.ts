@@ -244,7 +244,7 @@ export const rollbackToVersion = async (req: Request, res: Response) => {
     }
 
     const version = project.versions.find(
-      (v) => v.id === versionId
+      (v : {id:string} ) => v.id === versionId
     )
 
     if (!version) {
