@@ -13,7 +13,7 @@ interface Plan {
 
 const Pricing = () => {
   const [plans] = React.useState<Plan[]>(appPlans)
-    const handlePurchase = async (planId:string) => {
+    const handlePurchase = async (_:string) => {
         
     }
 
