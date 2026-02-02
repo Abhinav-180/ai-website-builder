@@ -1,5 +1,5 @@
  import { useEffect, useState } from 'react'
-import {X} from 'lucid-react'
+import {X} from 'lucide-react'
  interface EditorPanelProps {
   selectedElement: {
     tagName: string
