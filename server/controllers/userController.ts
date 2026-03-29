@@ -1,7 +1,6 @@
 import { Request, Response } from "express"
 import prisma from "../lib/prisma.js" // path apne project ke hisaab se
 import openai from "../configs/openai.js"
-import { role } from "better-auth/plugins"
 
 
 // Get User Credits
