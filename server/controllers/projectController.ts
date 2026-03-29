@@ -65,7 +65,7 @@ export const makeRevision = async (req: Request, res: Response) => {
 
     // Enhance user prompt
     const promptEnhanceResponse = await openai.chat.completions.create({
-      model: "openrouter/free",
+      model: "gemini-2.5-flash",
       messages: [
         {
           role: "system",
@@ -110,7 +110,7 @@ Return ONLY the enhanced request, nothing else. Keep it concise (1-2 sentences).
     })
     // Generate website code
     const codeGenerationResponse = await openai.chat.completions.create({
-      model: "openrouter/free",
+      model: "gemini-2.5-flash",
       messages: [
         {
           role: "system",
