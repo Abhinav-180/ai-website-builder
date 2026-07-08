@@ -53,7 +53,7 @@ const Community = () => {
 
                 <Link
                   key={project.id}
-                  to={`view/${project.id}`}
+                  to={`/view/${project.id}`}
                   target='_blank'
                   className="w-72 max-sm:mx-auto cursor-pointer
                              bg-gray-900/60 border border-gray-700 rounded-lg
