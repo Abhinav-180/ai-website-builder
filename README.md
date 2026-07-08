@@ -5,7 +5,7 @@ AI Website Builder is a full-stack SaaS application where users can generate com
 Instead of writing code manually, users can type a prompt, get a fully styled website instantly, request changes through chat, and publish it with a single click.
 
 **Live Demo**
-[View Live Application](https://website-builder-topaz.vercel.app)
+[View Live Application](https://ai-website-builder-topaz.vercel.app)
 
 ---
 
